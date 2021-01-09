@@ -1,0 +1,293 @@
+#nosotros {
+  background-color: #f7f1eb;
+  overflow: hidden;
+}
+
+#menu {
+  background-color: #f5e9dd;
+  overflow: hidden;
+}
+
+#vinos {
+  background-color: #e4c1c1;
+  overflow: hidden;
+}
+
+#reservas {
+  background-color: #f5e9dd;
+  overflow: hidden;
+}
+
+#contacto {
+  background-color: #f7f1eb;
+  overflow: hidden;
+}
+
+.cita-contenedor {
+  background-color: #e4c1c1;
+}
+
+.header-container {
+  background-image: -webkit-linear-gradient(#f8f2ed, #f8f2ed9d);
+  color: #301618;
+  width: 100%;
+  padding: 20px 0;
+  z-index: 100;
+  display: flex;
+  position: fixed;
+}
+.header-container .titulo {
+  text-decoration: none;
+  color: #301618;
+  word-spacing: 10px;
+  letter-spacing: 9px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.header-container .titulo a {
+  text-decoration: none;
+  color: #301618;
+  word-spacing: 10px;
+  letter-spacing: 9px;
+  font-size: 30px;
+  font-family: "Julius Sans One", sans-serif;
+}
+.header-container .titulo a:hover {
+  color: #301618;
+  -webkit-filter: drop-shadow(4px 4px 10px rgba(48, 22, 24, 0.445));
+  text-decoration: none;
+}
+.header-container .menu-barra a:hover {
+  text-decoration: underline #301618;
+  -webkit-filter: drop-shadow(4px 4px 10px rgba(48, 22, 24, 0.445));
+}
+.header-container .menudesplegable {
+  margin-top: 15px;
+  letter-spacing: 3px;
+  color: #301618;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+}
+.header-container .menudesplegable a {
+  color: #301618;
+  text-decoration: none;
+}
+.header-container .menudesplegable .dropdown {
+  position: relative;
+}
+.header-container .menudesplegable span {
+  z-index: 2;
+  position: relative;
+  text-decoration: none;
+}
+.header-container .menudesplegable .dropdown-items {
+  display: none;
+  flex-direction: column;
+  background-color: rgba(245, 233, 221, 0.623);
+  border-radius: 2px;
+  padding-top: 60px;
+  position: absolute;
+  top: -25px;
+  left: -30px;
+}
+.header-container .menudesplegable .dropdown-items li {
+  list-style: none;
+  padding: 0 20px 10px 0;
+}
+
+.menudesplegable > li {
+  display: inline;
+  margin-right: 30px;
+}
+
+.menudesplegable > li:last-of-type {
+  margin-right: 0;
+}
+
+.dropdown-items li:last-of-type {
+  border-bottom: none;
+}
+
+.dropdown:hover .dropdown-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-barra > li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.footer {
+  background-color: #301618;
+  padding: 60px;
+  color: #f5e9dd;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+}
+.footer a {
+  text-decoration: none;
+  color: #f7f1eb;
+}
+.footer a:hover {
+  -webkit-filter: drop-shadow(4px 4px 10px rgba(245, 233, 221, 0.384));
+  color: #f7f1eb;
+}
+.footer .fa {
+  padding: 20px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.bodymenu {
+  background-color: #e4c1c1;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+}
+
+.nuestromenu {
+  display: flex;
+  justify-content: center;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.nuestromenu:hover {
+  color: #301618;
+  -webkit-filter: drop-shadow(4px 4px 10px rgba(48, 22, 24, 0.445));
+  text-decoration: none;
+}
+
+.accordion {
+  background-color: #f5e9dd;
+  margin-top: 30px;
+  border-radius: 3px;
+}
+
+.collapsed:active {
+  background-color: #f5e9dd !important;
+}
+
+.accordion div h2 button:hover {
+  color: #301618;
+  -webkit-filter: drop-shadow(4px 4px 10px rgba(48, 22, 24, 0.445));
+  text-decoration: underline rgba(48, 22, 24, 0.452);
+}
+
+.accordion-body {
+  background-color: #f7f1eb;
+}
+
+.bodyreservas {
+  background-color: #e4c1c1;
+  font-family: "Raleway", sans-serif;
+}
+.bodyreservas .tituloreservas {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 35px;
+  text-align: center;
+  padding: 20px;
+}
+.bodyreservas .tituloreservas:hover {
+  color: #301618;
+  -webkit-filter: drop-shadow(4px 4px 10px rgba(48, 22, 24, 0.541));
+}
+.bodyreservas .formularioreservas {
+  padding: 10px 10px;
+  margin: 40px 200px;
+  border: 10px solid #f5e9dd;
+  background-color: #f7f1eb;
+  line-height: 2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  color: #301618;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  background-color: #f7f1eb;
+  font-family: 14px;
+  font-size: 12px;
+}
+
+.cita-contenedor {
+  padding: 90px;
+}
+.cita-contenedor .cita {
+  text-align: right;
+  font-size: 17px;
+  color: #301618;
+  margin-left: 100px;
+  animation-duration: 2s;
+  animation-name: aparecer;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#fotos {
+  width: 100%;
+  filter: grayscale(35%);
+}
+#fotos:hover {
+  filter: grayscale(0%);
+  transition: all 0.3s ease-in-out;
+}
+
+main .section {
+  margin-bottom: 100px;
+  margin-top: 70px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.titulo-body {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 35px;
+}
+.titulo-body:hover {
+  color: #301618;
+  -webkit-filter: drop-shadow(4px 4px 10px rgba(48, 22, 24, 0.541));
+}
+
+.linkmenu {
+  text-decoration: none;
+  color: #301618;
+  padding: 30px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.linkmenu:hover {
+  text-decoration: underline #301618;
+  color: #301618;
+  -webkit-filter: drop-shadow(4px 4px 10px rgba(48, 22, 24, 0.541));
+}
+
+.fototabla {
+  width: 300px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 60px;
+  filter: grayscale(35%);
+}
+.fototabla:hover {
+  filter: grayscale(0%);
+  transition: all 0.3s ease-in-out;
+}
+
+/*# sourceMappingURL=style.css.map */

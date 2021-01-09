@@ -1,0 +1,22 @@
+@mixin hoverlink {
+    text-decoration: underline $color1;
+    color: $color1;
+    -webkit-filter: drop-shadow(4px 4px 10px rgba(48, 22, 24, 0.541));
+}
+
+@mixin hoverfotos {
+    filter: grayscale(0%);
+    // -webkit-filter: drop-shadow(4px 4px 10px rgb(48, 22, 24));
+    transition: all .3s ease-in-out;
+}
+
+@mixin titulos {
+    font-family: $fuente-titulo;
+    font-size: 35px;
+
+    &:hover {
+        color: $color1;
+        -webkit-filter: drop-shadow(4px 4px 10px rgba(48, 22, 24, 0.541));
+    }
+    
+}

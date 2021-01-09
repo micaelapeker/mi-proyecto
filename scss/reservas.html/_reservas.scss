@@ -1,0 +1,21 @@
+
+
+.bodyreservas {
+    background-color: $color2;
+    font-family: $fuente-body;
+
+    .tituloreservas {
+        @include titulos;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .formularioreservas {
+        padding: 10px 10px;
+        margin: 40px 200px;
+        border: 10px solid rgb(245, 233, 221);
+        background-color: rgb(247, 241, 235);
+        line-height: 2;
+    }
+}
+

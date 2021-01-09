@@ -1,0 +1,117 @@
+// HEADER
+
+.header-container {
+    background-image: -webkit-linear-gradient(#f8f2ed, #f8f2ed9d);
+    color: $color1;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 100;
+    display: flex;
+    position: fixed;
+
+    .titulo {
+        text-decoration: none;
+        color: $color1;
+        word-spacing: 10px;
+        letter-spacing: 9px;
+       
+        font: {
+            weight: bold;
+            size: 25px;
+        }
+
+        a {
+            text-decoration: none;
+            color: $color1;
+            word-spacing: 10px;
+            letter-spacing: 9px;
+           
+            font: {
+                size: 30px;
+                family:$fuente-titulo;
+            }
+
+            &:hover {
+                color: $color1;
+                -webkit-filter: drop-shadow(4px 4px 10px rgba(48, 22, 24, 0.445));
+                text-decoration: none;  
+            }
+        }
+        
+    }
+
+    .menu-barra a:hover {
+        text-decoration: underline rgb(48, 22, 24);
+        -webkit-filter: drop-shadow(4px 4px 10px rgba(48, 22, 24, 0.445));
+    }
+
+    .menudesplegable {
+        margin-top: 15px;
+        letter-spacing: 3px;
+        color: $color1;
+        text-decoration: none;
+
+        font: {
+            weight: bold;
+            size: 14px;
+            family: $fuente-body;
+        }
+
+        a {
+            color: $color1;
+            text-decoration: none;   
+        }
+
+        .dropdown {
+            position: relative;
+        }
+        
+        span {
+            z-index: 2;
+            position: relative;
+            text-decoration: none;
+        }   
+
+        .dropdown-items {
+            display: none;
+            flex-direction: column;
+            background-color: rgba(245, 233, 221, 0.623);
+            border-radius: 2px;
+            padding-top: 60px;
+            position: absolute;
+            top: -25px;
+            left: -30px;
+
+            li {
+                list-style: none;
+                padding: 0 20px 10px 0;
+            }
+        } 
+    }
+}
+
+.menudesplegable>li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.menudesplegable>li:last-of-type {
+    margin-right: 0;
+}
+
+.dropdown-items li:last-of-type {
+    border-bottom: none;
+}
+
+.dropdown:hover .dropdown-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-barra>li {
+    display: inline;
+    margin-right: 20px;
+}
+
+// FIN HEADER
+

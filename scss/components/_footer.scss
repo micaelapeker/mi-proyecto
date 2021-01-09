@@ -1,0 +1,30 @@
+// FOOTER
+.footer {
+    background-color: $color1;
+    padding: 60px;
+    color: $color3;
+    letter-spacing: 1px;
+    line-height: 1.5;
+
+    font: {
+        size: 12px;
+        family: $fuente-body;
+    }
+
+    a {
+        text-decoration: none;
+        color: $color4;
+        
+        &:hover {
+            -webkit-filter: drop-shadow(4px 4px 10px rgba(245, 233, 221, 0.384));
+            color: $color4;
+        }
+    }
+    
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        text-decoration: none; 
+    }
+}
+
